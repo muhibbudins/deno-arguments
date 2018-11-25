@@ -1,8 +1,8 @@
-const normalize = (string) => {
-  return string.replace(/^(\W|\d)+/gi, '')
+const normalize = (text: string) => {
+  return text.replace(/^(\W|\d)+/gi, '')
 }
 
-const Arguments = (argv) => {
+const Arguments = (argv: string) => {
   const args = [...argv]
   const bracket = {}
 

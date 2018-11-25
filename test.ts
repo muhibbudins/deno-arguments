@@ -1,5 +1,5 @@
 import { args } from "deno"
-import Arguments from ".";
+import Arguments from "./index";
 
 console.log(Arguments(args))
 /*
