@@ -1,5 +1,6 @@
 # Arguments
-Simple CLI arguments parser for Deno
+
+Simple CLI arguments parser for Deno — Learn Deno
 
 ### Usage
 
@@ -7,7 +8,7 @@ Example code, create file **test.ts** and fill with below code.
 
 ```ts
 import { args } from "deno"
-import Arguments from "https://github.com/muhibbudins/arguments/index.ts";
+import Arguments from "https://github.com/muhibbudins/deno-arguments/index.ts";
 
 console.log(Arguments(args))
 ```
